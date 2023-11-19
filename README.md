@@ -1,3 +1,3 @@
 # stepik_test_bot
 test readme
-- test from vs_code
+- test from git_hub
