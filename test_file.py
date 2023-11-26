@@ -5,7 +5,8 @@ from dataclasses import dataclass
 class Users:
     User_id: int
 
-    def get_user_id(self):
+    def get_user_id(self) -> str:
+        print(Users.get_user_id.__annotations__)
         return f'User id is {self.User_id}'
 
 
